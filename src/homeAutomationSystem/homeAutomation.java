@@ -16,10 +16,9 @@ public class homeAutomation {
 		
 		if(owner.homeAutomationsysyemON()==true){
 			System.out.println("Home Automation Remote start");
+			}
 		
-		}
 		
-
 	}
 
 }

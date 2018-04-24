@@ -13,17 +13,21 @@ public class homeOwner {
 
 	public boolean homeAutomationsysyemON() {
 		// TODO Auto-generated method stub
+		return checkHouse();
+			
+	}
+
+	private boolean checkHouse() {
 		if(this.status >=1 ){
 			System.out.println(status+"persons  enter in House."); 
 			remote.startRemote();
 			return true;
 		}else{
+			remote.closeAppliancse();
 			
 		System.out.println("No one in the house");
 		return false;
 		}
-			
-		
 	}
 
 }

@@ -17,4 +17,19 @@ public class lights {
 		return button;
 	}
 
+	void lightOn() {
+		if(getButton()=="ON"){
+			System.out.println("=================================");
+			System.out.println("light is on");
+		}
+		else{
+			setButton("ON");
+		}
+	}
+
+	void lightsOFF() {
+		setButton("OFF");
+		System.out.println("lights are:"+getButton());
+	}
+
 }

@@ -27,4 +27,15 @@ public class washingMachine {
 		this.speed = speed;
 	}
 
+	void washingmachineON() {
+		if(getButton()!="ON"){
+			setButton("ON");
+		}else{
+			System.out.println("=================================");
+			System.out.println("washing machine ON");
+			setSpeed(30);
+			System.out.println("increase the speed of machine");
+		}
+	}
+
 }

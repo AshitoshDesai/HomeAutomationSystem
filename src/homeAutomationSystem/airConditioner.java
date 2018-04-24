@@ -27,4 +27,15 @@ public class airConditioner {
 		this.speed = speed;
 	}
 
+	void acON() {
+		if(getButton()!="ON"){
+			setButton("ON");
+		}else{
+			System.out.println("=================================");
+			setSpeed(30);
+			System.out.println("its very cold");
+			System.out.println("change the speed");
+		}
+	}
+
 }
