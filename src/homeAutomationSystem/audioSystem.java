@@ -4,17 +4,17 @@ public class audioSystem {
 
 	private String button;
 	private String next;
-	private String previous;
-	private String volumeup;
-	private String volumedown;
+	private String current;
+	private int volume;
 
-	public audioSystem(String string, String string2, String string3, String string4, String string5) {
+
+	public audioSystem(String string, String string2, String string3, int i) {
 		// TODO Auto-generated constructor stub
 		this.button=string;
 		this.next=string2;
-		this.previous=string3;
-		this.volumeup=string4; 
-		this.volumedown=string5;
+		this.current=string3;
+		 
+		this.volume=i;
 
 	}
 
@@ -34,28 +34,22 @@ public class audioSystem {
 		this.next = next;
 	}
 
-	public String getPrevious() {
-		return previous;
+	public String getCurrent() {
+		return current;
 	}
 
-	public void setPrevious(String previous) {
-		this.previous = previous;
+	public void setCurrent(String current) {
+		this.current = current;
 	}
 
-	public String getVolumeup() {
-		return volumeup;
+	public int getVolume() {
+		return volume;
 	}
 
-	public void setVolumeup(String volumeup) {
-		this.volumeup = volumeup;
+	public void setVolume(int volume) {
+		this.volume = volume;
 	}
 
-	public String getVolumedown() {
-		return volumedown;
-	}
-
-	public void setVolumedown(String volumedown) {
-		this.volumedown = volumedown;
-	}
-
+	
+	
 }

@@ -57,4 +57,41 @@ public class homeAutomationSystem {
 		this.audiosystem = audiosystem;
 	}
 
+	public void startRemote() {
+		// TODO Auto-generated method stub
+	if(lights.getButton()=="on"){
+		System.out.println("light is on");
+	}
+	else{
+		lights.setButton("oN");
+	}
+	
+	if(ac.getButton()!="on"){
+		ac.setButton("on");
+	}else{
+		ac.setSpeed(30);
+		System.out.println("its very cold");
+	}
+	
+	if(washingmachine.getButton()!="on"){
+		washingmachine.setButton("on");
+	}else{
+		washingmachine.setSpeed(30);
+		System.out.println("more dust is there");
+	}
+	if(telivision.getButton()!="on"){
+		telivision.setButton("on");
+	}else{
+		telivision.setChange("zee tv");
+		telivision.setVolume(22);
+	}
+	
+	if(audiosystem.getButton()!="on"){
+		audiosystem.setButton("on");
+	}else{
+		audiosystem.setNext("dil se");
+		audiosystem.setVolume(22);
+	}
+	
+}
 }

@@ -3,18 +3,18 @@ package homeAutomationSystem;
 public class telivision {
 
 	private String button;
-	private String channelup;
-	private String channeldown;
-	private String volumeup;
-	private String volumedown;
+	private String channel;
+	private String change;
+	private int volume;
+	
 
-	public telivision(String string, String string2, String string3, String string4, String string5) {
+	public telivision(String string, String string2, String string3, int i) {
 		// TODO Auto-generated constructor stub
 		this.button=string;
-		this.channelup=string2;
-		this.channeldown=string3;
-		this.volumeup=string4; 
-		this.volumedown=string5;
+		this.channel=string2;
+		this.change=string3;
+	
+		this.volume=i;
 	}
 
 	public String getButton() {
@@ -25,36 +25,29 @@ public class telivision {
 		this.button = button;
 	}
 
-	public String getChannelup() {
-		return channelup;
+	public String getChannel() {
+		return channel;
 	}
 
-	public void setChannelup(String channelup) {
-		this.channelup = channelup;
+	public void setChannel(String channel) {
+		this.channel = channel;
 	}
 
-	public String getChanneldown() {
-		return channeldown;
+	public String getChange() {
+		return change;
 	}
 
-	public void setChanneldown(String channeldown) {
-		this.channeldown = channeldown;
+	public void setChange(String change) {
+		this.change = change;
 	}
 
-	public String getVolumeup() {
-		return volumeup;
+	public int getVolume() {
+		return volume;
 	}
 
-	public void setVolumeup(String volumeup) {
-		this.volumeup = volumeup;
+	public void setVolume(int volume) {
+		this.volume = volume;
 	}
 
-	public String getVolumedown() {
-		return volumedown;
-	}
-
-	public void setVolumedown(String volumedown) {
-		this.volumedown = volumedown;
-	}
-
+	
 }

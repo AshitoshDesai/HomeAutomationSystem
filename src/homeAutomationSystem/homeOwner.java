@@ -15,6 +15,7 @@ public class homeOwner {
 		// TODO Auto-generated method stub
 		if(this.status >=1 ){
 			System.out.println(status+"persons  enter in House."); 
+			remote.startRemote();
 			return true;
 		}else{
 			

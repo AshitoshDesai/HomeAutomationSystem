@@ -9,6 +9,10 @@ public class lights {
 		this.button=string;
 	}
 
+	public void setButton(String button) {
+		this.button = button;
+	}
+
 	public String getButton() {
 		return button;
 	}

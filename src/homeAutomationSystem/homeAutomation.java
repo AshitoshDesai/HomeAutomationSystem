@@ -7,8 +7,8 @@ public class homeAutomation {
 		lights l=new lights("ON");
 		airConditioner a=new airConditioner("ON",20);
 		washingMachine w=new washingMachine("ON",20);
-		telivision t=new telivision("ON","up","down","Vup","Vdown");
-		audioSystem as=new audioSystem("ON","next","back","Vup","Vdown");
+		telivision t=new telivision("ON","starGold","next",10);
+		audioSystem as=new audioSystem("ON","next","Dil diya galla",20);
 		
 		homeAutomationSystem has=new homeAutomationSystem(l,a,w,t,as); 
 		
