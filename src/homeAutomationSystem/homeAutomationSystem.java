@@ -13,7 +13,7 @@ public class homeAutomationSystem {
 		this.lights=l;
 		this.ac=a;
 		this.washingmachine=w;
-		this.telivision=t;
+		this.telivision=t; 
 		this.audiosystem=as;
 	}
 

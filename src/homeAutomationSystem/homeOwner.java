@@ -11,4 +11,18 @@ public class homeOwner {
 		this.remote=has;
 	}
 
+	public boolean homeAutomationsysyemON() {
+		// TODO Auto-generated method stub
+		if(this.status >=1 ){
+			System.out.println(status+"persons  enter in House."); 
+			return true;
+		}else{
+			
+		System.out.println("No one in the house");
+		return false;
+		}
+			
+		
+	}
+
 }

@@ -13,7 +13,7 @@ public class telivision {
 		this.button=string;
 		this.channelup=string2;
 		this.channeldown=string3;
-		this.volumeup=string4;
+		this.volumeup=string4; 
 		this.volumedown=string5;
 	}
 

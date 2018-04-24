@@ -8,7 +8,7 @@ public class airConditioner {
 	public airConditioner(String string, int i) {
 		// TODO Auto-generated constructor stub
 		this.button=string;
-		this.speed=i;
+		this.speed=i; 
 	}
 
 	public String getButton() {

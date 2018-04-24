@@ -13,7 +13,7 @@ public class audioSystem {
 		this.button=string;
 		this.next=string2;
 		this.previous=string3;
-		this.volumeup=string4;
+		this.volumeup=string4; 
 		this.volumedown=string5;
 
 	}

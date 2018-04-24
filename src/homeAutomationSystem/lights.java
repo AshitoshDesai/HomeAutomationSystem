@@ -4,7 +4,7 @@ public class lights {
 
 	private String button;
 
-	public lights(String string) {
+	public lights(String string) { 
 		// TODO Auto-generated constructor stub
 		this.button=string;
 	}

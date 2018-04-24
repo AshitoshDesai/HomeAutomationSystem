@@ -11,7 +11,7 @@ public class washingMachine {
 		this.speed=i;
 	}
 
-	public String getButton() {
+	public String getButton()  {
 		return button;
 	}
 

@@ -10,10 +10,14 @@ public class homeAutomation {
 		telivision t=new telivision("ON","up","down","Vup","Vdown");
 		audioSystem as=new audioSystem("ON","next","back","Vup","Vdown");
 		
-		homeAutomationSystem has=new homeAutomationSystem(l,a,w,t,as);
+		homeAutomationSystem has=new homeAutomationSystem(l,a,w,t,as); 
 		
 		homeOwner owner=new homeOwner(1,has);
 		
+		if(owner.homeAutomationsysyemON()==true){
+			System.out.println("Home Automation Remote start");
+		
+		}
 		
 
 	}
