@@ -59,38 +59,58 @@ public class homeAutomationSystem {
 
 	public void startRemote() {
 		// TODO Auto-generated method stub
-	if(lights.getButton()=="on"){
+	if(lights.getButton()=="ON"){
+		System.out.println("=================================");
 		System.out.println("light is on");
 	}
 	else{
-		lights.setButton("oN");
+		lights.setButton("ON");
 	}
 	
-	if(ac.getButton()!="on"){
-		ac.setButton("on");
+	if(ac.getButton()!="ON"){
+		ac.setButton("ON");
 	}else{
+		System.out.println("=================================");
 		ac.setSpeed(30);
 		System.out.println("its very cold");
+		System.out.println("change the speed");
 	}
 	
-	if(washingmachine.getButton()!="on"){
-		washingmachine.setButton("on");
+	if(washingmachine.getButton()!="ON"){
+		washingmachine.setButton("ON");
 	}else{
+		System.out.println("=================================");
+		System.out.println("washing machine ON");
 		washingmachine.setSpeed(30);
-		System.out.println("more dust is there");
+		System.out.println("increase the speed of machine");
 	}
-	if(telivision.getButton()!="on"){
-		telivision.setButton("on");
+	if(telivision.getButton()!="ON"){
+		telivision.setButton("ON");
 	}else{
+		System.out.println("=================================");
+		System.out.println("TV is on");
+		
+		System.out.println("channel:"+telivision.getChannel());
+		System.out.println(" volume:"+telivision.getVolume());
 		telivision.setChange("zee tv");
+		System.out.println("-------------------------");
+		System.out.println("change channel:"+telivision.getChannel());
+
 		telivision.setVolume(22);
+		System.out.println("change volume:"+telivision.getVolume());
 	}
 	
-	if(audiosystem.getButton()!="on"){
-		audiosystem.setButton("on");
+	if(audiosystem.getButton()!="ON"){
+		audiosystem.setButton("ON");
 	}else{
+		System.out.println("=================================");
+		System.out.println("Song Playing:"+audiosystem.getCurrent());
+		System.out.println("-------------------------");
 		audiosystem.setNext("dil se");
 		audiosystem.setVolume(22);
+		System.out.println("Song next:"+audiosystem.getCurrent());
+		System.out.println("change volume:"+telivision.getVolume());
+		
 	}
 	
 }
